@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5598D9529F14FD000E954FE /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5598D9429F14FD000E954FE /* Files.swift */; };
 		C56ECBB929E98C1700A092E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56ECBB829E98C1700A092E6 /* AppDelegate.swift */; };
 		C56ECBBB29E98C1700A092E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56ECBBA29E98C1700A092E6 /* SceneDelegate.swift */; };
 		C56ECBBD29E98C1700A092E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56ECBBC29E98C1700A092E6 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5598D9429F14FD000E954FE /* Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
 		C56ECBB529E98C1700A092E6 /* TableViewBeginner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewBeginner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56ECBB829E98C1700A092E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C56ECBBA29E98C1700A092E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5598D9229F14F9600E954FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C56ECBBC29E98C1700A092E6 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C5598D9329F14FB100E954FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C56ECBBE29E98C1700A092E6 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5598D9629F14FD500E954FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5598D9429F14FD000E954FE /* Files.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C56ECBAC29E98C1700A092E6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +127,9 @@
 			children = (
 				C56ECBB829E98C1700A092E6 /* AppDelegate.swift */,
 				C56ECBBA29E98C1700A092E6 /* SceneDelegate.swift */,
-				C56ECBBC29E98C1700A092E6 /* ViewController.swift */,
-				C56ECBBE29E98C1700A092E6 /* Main.storyboard */,
+				C5598D9629F14FD500E954FE /* Model */,
+				C5598D9229F14F9600E954FE /* Controller */,
+				C5598D9329F14FB100E954FE /* View */,
 				C56ECBC129E98C1900A092E6 /* Assets.xcassets */,
 				C56ECBC329E98C1900A092E6 /* LaunchScreen.storyboard */,
 				C56ECBC629E98C1900A092E6 /* Info.plist */,
@@ -259,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C56ECBBD29E98C1700A092E6 /* ViewController.swift in Sources */,
+				C5598D9529F14FD000E954FE /* Files.swift in Sources */,
 				C56ECBB929E98C1700A092E6 /* AppDelegate.swift in Sources */,
 				C56ECBBB29E98C1700A092E6 /* SceneDelegate.swift in Sources */,
 			);
@@ -435,8 +463,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9P57SF7ZN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableViewBeginner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -451,6 +481,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.TableViewBeginner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,8 +493,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y9P57SF7ZN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TableViewBeginner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,6 +511,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.TableViewBeginner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
